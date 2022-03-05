@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/comment-tab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="comments" class="comments">
+        <div class="button-container">
+            <button class="tab-button active" data-id="tistory"><i class="fa fa-comment" aria-hidden="true"></i> Tistory
+                댓글</button>
+            <button class="tab-button" data-id="github"><i class="fa fa-github"></i> Github 댓글</button>
+        </div>
+        <div class="content-container">
+            <div class="tab-content active" id="tistory">
+                Tistory 댓글
+            </div>
+            <div class="tab-content" id="github">
+                Github 댓글
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="js/comment-tab.js"></script>
+</footer>
+
+</html>
